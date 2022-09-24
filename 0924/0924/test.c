@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-//æ°´ä»™èŠ±æ•°
+//Ë®ÏÉ»¨Êý
 int power(int n,int j)
 {
 	int m = n;
@@ -12,7 +12,7 @@ int power(int n,int j)
 }
 void func(int i)
 {
-	int arr[10] = { 0 };
+	int arr[100000] = { 0 };
 	int j = 0;
 	int temp = i;
 	while (i >= 10)
