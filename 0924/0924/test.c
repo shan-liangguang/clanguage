@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-//Ë®ÏÉ»¨Êý
+//æ°´ä»™èŠ±æ•°
 int power(int n,int j)
 {
 	int m = n;
