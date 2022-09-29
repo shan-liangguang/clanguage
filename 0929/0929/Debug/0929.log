@@ -1,0 +1,5 @@
+﻿  test.c
+D:\gitee\clanguage\0929\0929\test.c(23,44): warning C4090: “函数”: 不同的“const”限定符
+D:\gitee\clanguage\0929\0929\test.c(23,44): warning C4028: 形参 1 与声明不同
+D:\gitee\clanguage\0929\0929\test.c(23,44): warning C4028: 形参 2 与声明不同
+  0929.vcxproj -> D:\gitee\clanguage\0929\Debug\0929.exe
