@@ -1,0 +1,4 @@
+﻿  test.c
+D:\gitee\clanguage\1001\1001\test.c(55,26): warning C4047: “函数”:“const char *”与“char (*)[7]”的间接级别不同
+D:\gitee\clanguage\1001\1001\test.c(55,22): warning C4024: “strlen”: 形参和实参 1 的类型不同
+  1001.vcxproj -> D:\gitee\clanguage\1001\Debug\1001.exe
