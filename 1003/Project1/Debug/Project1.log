@@ -1,0 +1,4 @@
+﻿  test.c
+D:\gitee&github\clanguage\1003\Project1\test.c(53,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\gitee&github\clanguage\1003\Project1\test.c(67,8): warning C4013: “memcpy”未定义；假设外部返回 int
+  Project1.vcxproj -> D:\gitee&github\clanguage\1003\Debug\Project1.exe
