@@ -43,8 +43,10 @@ int main()
 			printbook(&book);
 			break;
 		case sort:
+			printf("正在开发中");
 			break;
 		case exit:
+			storedata(&book);
 			Free(&book);
 			break;
 		default:

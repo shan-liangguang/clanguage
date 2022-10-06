@@ -9,11 +9,23 @@ void menu()//菜单
 	printf("     5.排序     0.退出       \n");
 	printf("请选择->:");
 }
-void initbook(abook* pb)//初始化通讯录
+void initbook(abook* pb)//初始化通讯录和读取文件信息
 {
 	pb->data = (peo*)malloc(5 * sizeof(peo));//一开始申请可以容纳5个人信息的空间
 	pb->d_max = 5;
 	pb->d_now = 0;
+	FILE* pf = fopen("adress book.dat", "r");
+	if (pf == NULL)
+	{
+		perror("initbook_fopen");
+		return;
+	}
+	fread(&(pb->d_max), sizeof(int), 1, pf);
+	fread(&(pb->d_now), sizeof(int), 1, pf);
+	fread(pb->data, sizeof(peo), pb->d_now, pf);
+	fclose(pf);
+	pf = NULL;
+
 }
 void Add(abook* pb)//增加函数
 {
@@ -122,4 +134,18 @@ void Revise(abook* pb, char* arr)
 		printf("请输入地址->:");
 		scanf("%s", pb->data[tmp].adress);
 	}
+}
+void storedata(abook* pb)
+{
+	FILE* pf = fopen("adress book.dat", "w");//创建文件并以写入的形式打开
+	if (pf == NULL)
+	{
+		perror(fopen);
+		return;
+	}
+	fwrite(&(pb->d_max), sizeof(int), 1, pf);
+	fwrite(&(pb->d_now), sizeof(int), 1, pf);
+	fwrite(pb->data, sizeof(peo), pb->d_now, pf);
+	fclose(pf);
+	pf = NULL;
 }

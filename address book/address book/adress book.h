@@ -33,3 +33,4 @@ void Delete(abook* pb);
 int Search_by_name(abook* pb, char* arr);
 void Printsigle(int tmp, abook* pb);
 void Revise(abook* pb, char* arr);
+void storedata(abook* pb);
