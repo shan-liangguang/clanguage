@@ -6,7 +6,7 @@ int main()
 	int input = 0;//接受选择
 	abook book;
 	initbook(&book);//初始化通讯录，申请通讯录容量
-
+	printbook(&book);
 	do
 	{
 		menu();//打印菜单
@@ -43,7 +43,7 @@ int main()
 			printbook(&book);
 			break;
 		case sort:
-			printf("正在开发中");
+			printf("正在开发中\n");
 			break;
 		case exit:
 			storedata(&book);

@@ -1,9 +1,2 @@
-﻿  adress book.c
-D:\gitee&github\clanguage\address book\address book\adress book.c(14,25): warning C4013: “malloc”未定义；假设外部返回 int
-D:\gitee&github\clanguage\address book\address book\adress book.c(34,27): warning C4013: “realloc”未定义；假设外部返回 int
-D:\gitee&github\clanguage\address book\address book\adress book.c(38,12): warning C4098: “Add”:“void”函数返回值
-D:\gitee&github\clanguage\address book\address book\adress book.c(70,6): warning C4013: “free”未定义；假设外部返回 int
-D:\gitee&github\clanguage\address book\address book\adress book.c(102,13): warning C4013: “strcmp”未定义；假设外部返回 int
-D:\gitee&github\clanguage\address book\address book\adress book.c(143,15): warning C4047: “函数”:“const char *”与“FILE *(__cdecl *)(const char *,const char *)”的间接级别不同
-D:\gitee&github\clanguage\address book\address book\adress book.c(143,10): warning C4024: “perror”: 形参和实参 1 的类型不同
+﻿  test.c
   address book.vcxproj -> D:\gitee&github\clanguage\address book\Debug\address book.exe

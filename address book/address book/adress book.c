@@ -22,6 +22,13 @@ void initbook(abook* pb)//初始化通讯录和读取文件信息
 	}
 	fread(&(pb->d_max), sizeof(int), 1, pf);
 	fread(&(pb->d_now), sizeof(int), 1, pf);
+	peo* tmp = (peo*)realloc(pb->data,(pb->d_max) * sizeof(peo));
+	if (tmp == NULL)
+	{
+		perror("initbook_realloc");
+		return;
+	}
+	pb->data = tmp;
 	fread(pb->data, sizeof(peo), pb->d_now, pf);
 	fclose(pf);
 	pf = NULL;
@@ -35,7 +42,7 @@ void Add(abook* pb)//增加函数
 		if (tmp == NULL)
 		{
 			perror("Add");//打印错误
-			return 1;
+			return ;
 		}
 		pb->data = tmp;
 		pb->d_max += 3;
