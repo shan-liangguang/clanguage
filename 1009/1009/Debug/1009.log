@@ -1,0 +1,5 @@
+﻿  test.c
+D:\gitee&github\clanguage\1009\1009\test.c(148,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“__int64 *”
+D:\gitee&github\clanguage\1009\1009\test.c(148,8): message : 请考虑在格式字符串中使用“%lld”
+D:\gitee&github\clanguage\1009\1009\test.c(148,8): message : 请考虑在格式字符串中使用“%I64d”
+  1009.vcxproj -> D:\gitee&github\clanguage\1009\Debug\1009.exe

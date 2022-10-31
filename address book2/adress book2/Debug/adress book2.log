@@ -1,2 +1,5 @@
 ﻿  adress_book.c
-  adress book2.vcxproj -> D:\gitee&github\clanguage\adress book2\Debug\adress book2.exe
+  test.c
+D:\gitee&github\clanguage\address book2\adress book2\test.c(24,10): warning C4013: “Search”未定义；假设外部返回 int
+  正在生成代码...
+  adress book2.vcxproj -> D:\gitee&github\clanguage\address book2\Debug\adress book2.exe

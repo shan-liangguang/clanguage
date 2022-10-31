@@ -1,0 +1,3 @@
+﻿  test.c
+D:\gitee&github\clanguage\1016\1016\test.c(41,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  1016.vcxproj -> D:\gitee&github\clanguage\1016\Debug\1016.exe
